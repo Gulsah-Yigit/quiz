@@ -24,6 +24,7 @@ const QuestionCard = ({
     }
     setCount(count + 1);
     if (count === 9) setModal(true);
+    setTimer(30);
   };
 
   useEffect(() => {
